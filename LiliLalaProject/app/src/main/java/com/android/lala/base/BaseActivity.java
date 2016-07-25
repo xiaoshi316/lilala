@@ -10,12 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.lala.LaLaAppaction;
 import com.android.lala.R;
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
-
-import java.util.Hashtable;
+import com.android.lala.http.VolleyHelper;
 
 /**
  * Created by ssx .
@@ -23,18 +19,12 @@ import java.util.Hashtable;
 public abstract class BaseActivity extends AppCompatActivity {
     protected boolean mIsMainPage = false; // 首页时判断按两次返回键退出
     public String TAG = this.getClass().getSimpleName();
-    public RequestQueue requestQueue;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
-        if (LaLaAppaction.isUseHTTPS) {
-//            InputStream keyStore = context.getResources().openRawResource(R.raw.handpayssl);
-//            requestQueue = Volley.newRequestQueue(context, new ExtHttpClientStack(new SslHttpClient(keyStore, "handpay", 443)));
-        } else {
-            requestQueue = Volley.newRequestQueue(this);
-        }
+        VolleyHelper.getInstance().init(this);
         initView();
         initData();
         initListener();
@@ -159,40 +149,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /***
-     * @param action
-     * @param params
-     * @return
-     */
-    public void doPost(final String action, final Hashtable<String, String> params, final boolean loading) {
-
+    public <T extends View> T findView(int viewId) {
+        return (T) mContentLayout.findViewById(viewId);
     }
-
-    /***
-     * @param action
-     * @param params
-     * @param loading
-     * @param loadingStr
-     */
-    public void doPost(final String action, final Hashtable<String, String> params, final boolean loading, String loadingStr) {
-
-    }
-    /***
-     * 网络请求抽象方法处理相关请求回调业务 子类必须实现
-     * @param action
-     * @param resp
-     */
-//    public abstract void netResponse(String action, Hashtable<String, Object> resp);
-
-    /***
-     * 有网络请求的界面需要实现此方法
-     * （考虑到一些界面不需要所以不用抽象方法）
-     *
-     * @param action
-     * @param resp
-     */
-    public void doNetReponse(String action, Hashtable<String, Object> resp) {
-        // TODO: 2016/6/16 处理网络回调业务，
-    }
-
 }

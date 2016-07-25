@@ -1,12 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.lala.login.LoginActivity">
+    tools:context=".login.LoginActivity"
+    android:background="#bbbbbb" >
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/cross"
+        android:layout_margin="10dp" />
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/sridicon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/email" />
+        <EditText
+            android:id="@+id/lg_username"
+            android:layout_toRightOf="@+id/sridicon"
+            android:layout_alignTop="@+id/sridicon"
+            android:layout_alignBottom="@+id/sridicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入手机号/邮箱/昵称"
+            android:text="13618498347"
+            android:textSize="10sp"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:background="@null"  />
+        <View
+            android:id="@+id/line1"
+            android:layout_below="@+id/sridicon"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+        <ImageView
+            android:id="@+id/srpasswordicon"
+            android:layout_below="@+id/line1"
+            android:layout_alignParentLeft="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/password" />
+        <EditText
+            android:id="@+id/lg_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/srpasswordicon"
+            android:layout_toLeftOf="@+id/forgotpasswordtext"
+            android:layout_alignTop="@+id/srpasswordicon"
+            android:layout_alignBottom="@+id/srpasswordicon"
+            android:background="@null"
+            android:text="789666"
+            android:hint="输入密码"
+            android:singleLine="true"
+            android:textSize="10sp"
+            android:inputType="textPassword"
+            android:textColorHint="#fff"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/forgotpasswordtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@+id/srpasswordicon"
+            android:layout_alignBottom="@+id/srpasswordicon"
+            android:textSize="10sp"
+            android:text="忘记密码？"
+            android:textColor="#FF7043" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_below="@+id/srpasswordicon"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_below="@+id/line2"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="登录"
+            android:textSize="10sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_below="@+id/btn_login"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="还没有账号，去注册"
+            android:textColor="#A7A7A7"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape2" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

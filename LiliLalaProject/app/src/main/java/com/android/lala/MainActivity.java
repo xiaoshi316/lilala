@@ -14,6 +14,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String httpserver= LalaConfig.httpServer;
         LalaLog.i(LalaLog.SSX_TAG,"httpServer:"+httpserver);
-
     }
 }
