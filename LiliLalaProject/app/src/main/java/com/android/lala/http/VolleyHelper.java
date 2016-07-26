@@ -19,6 +19,7 @@ package com.android.lala.http;
 import android.content.Context;
 
 import com.android.lala.LaLaAppaction;
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
@@ -59,6 +60,14 @@ public class VolleyHelper {
         }
     }
 
+    public void add(Request<?> request) {
+        if (requestQueue!=null){
+            requestQueue.add(request);
+        }else {
+            throw new IllegalArgumentException("RequestQueue is not initialized,please check your BaseActivity's onCreate!");
+        }
+    }
+
     /**
      * get request queue
      *
@@ -71,5 +80,4 @@ public class VolleyHelper {
             throw new IllegalArgumentException("RequestQueue is not initialized,please check your BaseActivity's onCreate!");
         }
     }
-
 }

@@ -1,118 +1,117 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".login.LoginActivity"
-    android:background="#bbbbbb" >
+    style="@style/MatchParent"
+    android:background="@color/nomarl_grey_bg_color"
+    tools:context=".login.LoginActivity">
 
     <ImageView
         android:id="@+id/cross"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_alignParentTop="true"
+        android:layout_width="@dimen/twenty_five_dp"
+        android:layout_height="@dimen/twenty_five_dp"
         android:layout_alignParentRight="true"
-        android:src="@mipmap/cross"
-        android:layout_margin="10dp" />
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/ten_dp"
+        android:src="@mipmap/cross" />
 
     <RelativeLayout
-        android:layout_centerInParent="true"
         android:layout_width="250dp"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
         <ImageView
             android:id="@+id/sridicon"
-            android:layout_alignParentTop="true"
+            android:layout_width="@dimen/twenty_five_dp"
+            android:layout_height="@dimen/twenty_five_dp"
             android:layout_alignParentLeft="true"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/ten_dp"
             android:src="@mipmap/email" />
+
         <EditText
             android:id="@+id/lg_username"
-            android:layout_toRightOf="@+id/sridicon"
-            android:layout_alignTop="@+id/sridicon"
+            style="@style/WrapContent.WidthMatchParent"
             android:layout_alignBottom="@+id/sridicon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="输入手机号/邮箱/昵称"
-            android:text="13618498347"
-            android:textSize="10sp"
-            android:textColorHint="#fff"
-            android:textColor="#fff"
+            android:layout_alignTop="@+id/sridicon"
+            android:layout_toRightOf="@+id/sridicon"
+            android:background="@null"
+            android:hint="@string/hint_input_username"
             android:singleLine="true"
-            android:background="@null"  />
+            android:text="13618498347"
+            android:textColor="@color/white_color"
+            android:textColorHint="@color/white_color"
+            android:textSize="@dimen/ten_sp" />
+
         <View
             android:id="@+id/line1"
-            android:layout_below="@+id/sridicon"
+            style="@style/MatchParent.Line"
             android:layout_alignParentLeft="true"
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="#fff" />
+            android:layout_below="@+id/sridicon"
+            android:background="@color/white_color" />
+
         <ImageView
             android:id="@+id/srpasswordicon"
-            android:layout_below="@+id/line1"
+            android:layout_width="@dimen/twenty_five_dp"
+            android:layout_height="@dimen/twenty_five_dp"
             android:layout_alignParentLeft="true"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_margin="10dp"
+            android:layout_below="@+id/line1"
+            android:layout_margin="@dimen/ten_dp"
             android:src="@mipmap/password" />
+
         <EditText
             android:id="@+id/lg_password"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/srpasswordicon"
-            android:layout_toLeftOf="@+id/forgotpasswordtext"
-            android:layout_alignTop="@+id/srpasswordicon"
+            style="@style/WrapContent.WidthMatchParent"
             android:layout_alignBottom="@+id/srpasswordicon"
+            android:layout_alignTop="@+id/srpasswordicon"
+            android:layout_toLeftOf="@+id/forgotpasswordtext"
+            android:layout_toRightOf="@+id/srpasswordicon"
             android:background="@null"
-            android:text="789666"
-            android:hint="输入密码"
-            android:singleLine="true"
-            android:textSize="10sp"
+            android:hint="@string/hint_pwd"
             android:inputType="textPassword"
-            android:textColorHint="#fff"
-            android:textColor="#fff" />
+            android:singleLine="true"
+            android:text="789666"
+            android:textColor="@color/white_color"
+            android:textColorHint="@color/white_color"
+            android:textSize="@dimen/ten_sp" />
+
         <TextView
             android:id="@+id/forgotpasswordtext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:gravity="center_vertical"
-            android:layout_alignTop="@+id/srpasswordicon"
+            style="@style/WrapContent"
             android:layout_alignBottom="@+id/srpasswordicon"
-            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/srpasswordicon"
+            android:gravity="center_vertical"
             android:text="忘记密码？"
-            android:textColor="#FF7043" />
+            android:textColor="@color/forget_pwd_color"
+            android:textSize="@dimen/ten_sp" />
 
         <View
             android:id="@+id/line2"
-            android:layout_below="@+id/srpasswordicon"
+            style="@style/MatchParent.Line"
             android:layout_alignParentLeft="true"
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="#fff" />
+            android:layout_below="@+id/srpasswordicon"
+            android:background="@color/white_color" />
+
         <Button
             android:id="@+id/btn_login"
-            android:layout_below="@+id/line2"
+            style="@style/WrapContent.WidthMatchParent"
             android:layout_alignParentLeft="true"
-            android:layout_width="fill_parent"
-            android:layout_height="30dp"
-            android:text="登录"
-            android:textSize="10sp"
+            android:layout_below="@+id/line2"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_shape"
-            android:textColor="#fff" />
+            android:text="登录"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/ten_sp" />
 
         <Button
             android:id="@+id/btn_reg"
-            android:layout_below="@+id/btn_login"
+            style="@style/WrapContent.WidthMatchParent"
             android:layout_alignParentLeft="true"
-            android:layout_width="fill_parent"
-            android:layout_height="30dp"
+            android:layout_below="@+id/btn_login"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:background="@drawable/button_shape2"
             android:text="还没有账号，去注册"
-            android:textColor="#A7A7A7"
-            android:textSize="10sp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button_shape2" />
+            android:textColor="@color/nomarl_text_color"
+            android:textSize="@dimen/ten_sp" />
 
     </RelativeLayout>
 

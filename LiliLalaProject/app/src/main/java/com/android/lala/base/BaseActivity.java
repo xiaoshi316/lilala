@@ -1,155 +1,195 @@
 package com.android.lala.base;
 
-
+import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
 import com.android.lala.R;
 import com.android.lala.http.VolleyHelper;
 
+import java.util.HashMap;
+
+
 /**
- * Created by ssx .
+ * @author ssx
  */
 public abstract class BaseActivity extends AppCompatActivity {
-    protected boolean mIsMainPage = false; // 首页时判断按两次返回键退出
-    public String TAG = this.getClass().getSimpleName();
+
+    private CoordinatorLayout mCoordinatorLayout;
+    private AppBarLayout mAppBarLayout;
+    private Toolbar mToolbar;
+    private FrameLayout mContentLayout;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected final void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(getLayoutId());
+        getDelegate().setContentView(R.layout.activity_base);
         VolleyHelper.getInstance().init(this);
-        initView();
-        initData();
+        mCoordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorlayout);
+        mAppBarLayout = (AppBarLayout) findViewById(R.id.appbarlayout);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mContentLayout = (FrameLayout) findViewById(R.id.content);
+        setSupportActionBar(mToolbar);
+        setBackBar(true);
+        onActivityCreate(savedInstanceState);
         initListener();
+    }
+
+    protected abstract void initListener();
+
+    protected abstract void onActivityCreate(Bundle savedInstanceState);
+
+    public <T extends View> T findView(int viewId) {
+        return (T) mContentLayout.findViewById(viewId);
+    }
+
+    public CoordinatorLayout getCoordinatorLayout() {
+        return mCoordinatorLayout;
+    }
+
+    public FrameLayout getContentLayout() {
+        return mContentLayout;
+    }
+
+    public AppBarLayout getAppBarLayout() {
+        return mAppBarLayout;
+    }
+
+    public Toolbar getmToolbar() {
+        return mToolbar;
+    }
+
+    @Override
+    public void setTitle(CharSequence title) {
+        mToolbar.setTitle(title);
+    }
+
+    @Override
+    public void setTitle(int titleId) {
+        mToolbar.setTitle(titleId);
+    }
+
+    public void setSubtitle(CharSequence title) {
+        mToolbar.setSubtitle(title);
+    }
+
+    public void setSubtitle(int titleId) {
+        mToolbar.setSubtitle(titleId);
+    }
+
+    public void setSubtitleTextColor(int color) {
+        mToolbar.setSubtitleTextColor(color);
+    }
+
+    public void setTitleTextColor(int color) {
+        mToolbar.setTitleTextColor(color);
+    }
+
+    public void setBackBar(boolean isShow) {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(isShow);
+    }
+
+    public void setContentBackground(int color) {
+        mContentLayout.setBackgroundResource(color);
+    }
+
+    @Override
+    public void setContentView(int layoutResID) {
+        mContentLayout.removeAllViews();
+        getLayoutInflater().inflate(layoutResID, mContentLayout, true);
+    }
+
+    @Override
+    public void setContentView(View view) {
+        mContentLayout.removeAllViews();
+        mContentLayout.addView(view);
+    }
+
+    @Override
+    public void setContentView(View view, ViewGroup.LayoutParams params) {
+        mContentLayout.addView(view, params);
+    }
+
+    @Override
+    public final boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return onOptionsItemSelectedCompat(item);
+    }
+
+    protected boolean onOptionsItemSelectedCompat(MenuItem item) {
+        return false;
+    }
+
+    public ViewGroup getContentRoot() {
+        return mContentLayout;
+    }
+
+    /**
+     * Show message dialog.
+     *
+     * @param title   title.
+     * @param message message.
+     */
+    public void showMessageDialog(int title, int message) {
+        showMessageDialog(getText(title), getText(message));
+    }
+
+    /**
+     * Show message dialog.
+     *
+     * @param title   title.
+     * @param message message.
+     */
+    public void showMessageDialog(int title, CharSequence message) {
+        showMessageDialog(getText(title), message);
+    }
+
+    /**
+     * Show message dialog.
+     *
+     * @param title   title.
+     * @param message message.
+     */
+    public void showMessageDialog(CharSequence title, int message) {
+        showMessageDialog(title, getText(message));
+    }
+
+    /**
+     * Show message dialog.
+     *
+     * @param title   title.
+     * @param message message.
+     */
+    public void showMessageDialog(CharSequence title, CharSequence message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton(R.string.dialog_ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+    }
+
+    public void request(String url, final HashMap<String, String> paramers) {
+    
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-    }
-
-    public abstract void initData();
-
-    public abstract void initView();
-
-    public abstract void initListener();
-
-    public abstract int getLayoutId();
-
-    @Override
-    public void onBackPressed() {
-        finish();
-    }
-
-    /***
-     * 初始化ToolBar
-     *
-     * @param toolbar
-     * @param leftBackIcon  是否显示左边返回按钮
-     * @param rightIcon     是否显示右边设置按钮
-     * @param rightListener 右边按钮监听事件
-     */
-    protected void initToolbar(String title, Toolbar toolbar, boolean leftBackIcon, boolean rightIcon, View.OnClickListener rightListener) {
-        TextView mTitle = (TextView) toolbar.findViewById(R.id.tv_title);
-        TextView mSetting = (TextView) toolbar.findViewById(R.id.tv_setting);
-        toolbar.setTitle("");
-        if (!TextUtils.isEmpty(title)) {
-            mTitle.setText(title);
-        } else {
-            mTitle.setText("");//未设置Fragement title
-        }
-        // TODO: 是否显示左边返回按钮
-        if (leftBackIcon) {
-            toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
-            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    onBackPressed();
-                }
-            });
-        }
-        // TODO:  是否显示右边设置文字，并且添加OnClick点击事件
-        if (rightIcon) {
-            mSetting.setVisibility(View.VISIBLE);
-            mSetting.setOnClickListener(rightListener);
-        }
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(leftBackIcon);
-    }
-
-    /***
-     * 初始化 ToolBar
-     *
-     * @param toolbar
-     * @param leftBackIcon 左边返回按钮是否显示
-     */
-    protected void initToolbar(String title, Toolbar toolbar, boolean leftBackIcon) {
-        TextView mTitle = (TextView) toolbar.findViewById(R.id.tv_title);
-        TextView mSetting = (TextView) toolbar.findViewById(R.id.tv_setting);
-        toolbar.setTitle("");
-        if (!TextUtils.isEmpty(title)) {
-            mTitle.setText(title);
-        } else {
-            mTitle.setText("");//未设置Fragement title
-        }
-        if (leftBackIcon) {
-            toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
-            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    onBackPressed();
-                }
-            });
-        }
-        mSetting.setVisibility(View.GONE);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(leftBackIcon);
-
-    }
-
-    /***
-     * 初始化 ToolBar
-     *
-     * @param toolbar
-     * @param leftBackIcon 左边返回按钮是否显示
-     * @param listener     自定义左边按钮监听
-     */
-    protected void initToolbar(String title, Toolbar toolbar, boolean leftBackIcon, View.OnClickListener listener) {
-        TextView mTitle = (TextView) toolbar.findViewById(R.id.tv_title);
-        TextView mSetting = (TextView) toolbar.findViewById(R.id.tv_setting);
-        toolbar.setTitle("");
-        if (!TextUtils.isEmpty(title)) {
-            mTitle.setText(title);
-        } else {
-            mTitle.setText("");//未设置Fragement title
-        }
-        setSupportActionBar(toolbar);
-        if (leftBackIcon) {
-            toolbar.setNavigationIcon(R.drawable.ic_arrow_back_white_24dp);
-            toolbar.setNavigationOnClickListener(listener);
-        }
-        mSetting.setVisibility(View.GONE);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(leftBackIcon);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            onBackPressed();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    public <T extends View> T findView(int viewId) {
-        return (T) mContentLayout.findViewById(viewId);
     }
 }

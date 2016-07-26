@@ -17,6 +17,7 @@
 package com.android.lala.http.request;
 
 import com.android.lala.utils.LalaLog;
+import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -29,6 +30,8 @@ import com.google.gson.Gson;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * A request for retrieving a T type response body at a given URL that also
@@ -55,6 +58,8 @@ public class GsonRequest<T> extends Request<T> {
     private final String mRequestBody;
     private Type mType = null;
     private Gson mGson = null;
+    private HashMap<String, String> paramers;
+    private int method;
 
     public GsonRequest(int method, String url, String requestBody, Type type, Listener<T> listener,
                        ErrorListener errorListener) {
@@ -62,8 +67,9 @@ public class GsonRequest<T> extends Request<T> {
         mType = type;
         mListener = listener;
         mRequestBody = requestBody;
-
         mGson = new Gson();
+        this.method = method;
+        paramers = new HashMap<>();
     }
 
     public GsonRequest(String url, String requestBody, Type type, Listener<T> listener,
@@ -102,5 +108,19 @@ public class GsonRequest<T> extends Request<T> {
                     mRequestBody, PROTOCOL_CHARSET);
             return null;
         }
+    }
+
+    public void setParamers(HashMap<String, String> paramers) {
+        this.paramers = paramers;
+    }
+
+    @Override
+    protected Map<String, String> getParams() throws AuthFailureError {
+        if (this.method == Method.POST) {
+            if (paramers != null && paramers.size() > 0) {
+                return paramers;
+            }
+        }
+        return super.getParams();
     }
 }
