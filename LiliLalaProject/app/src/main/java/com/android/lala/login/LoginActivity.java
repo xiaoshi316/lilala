@@ -1,5 +1,6 @@
 package com.android.lala.login;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,10 +11,11 @@ import com.android.lala.R;
 import com.android.lala.api.ApiContacts;
 import com.android.lala.api.HttpWhatContacts;
 import com.android.lala.base.BaseActivity;
-import com.android.lala.http.RequestFactory;
 import com.android.lala.http.VolleyHelper;
 import com.android.lala.http.listener.HttpListener;
-import com.android.volley.Request;
+import com.android.lala.register.RegisterActivity;
+import com.android.lala.utils.CommUtils;
+import com.android.lala.utils.LalaLog;
 
 import java.util.HashMap;
 
@@ -44,7 +46,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         httpListener = new HttpListener<String>() {
             @Override
             public void onSuccess(int what, String response) {
-
+                LalaLog.json("response:", response);
             }
 
             @Override
@@ -57,21 +59,40 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     @Override
     public void onClick(View v) {
         int viewId = v.getId();
+        Intent intent = new Intent();
         if (viewId == R.id.btn_login) {
-            username = mUserName.getText().toString().trim();
-            pwd = mPassWord.getText().toString().trim();
-            HashMap<String, String> paramers = new HashMap<>();
-            paramers.put("name", username);
-            paramers.put("pw", pwd);
-            Request<String> request = RequestFactory.getInstance(this).createStringRequest(HttpWhatContacts.LOGIN, ApiContacts.USER_LOGIN, httpListener, paramers, true);
-            VolleyHelper.getInstance().add("login", request);
+            doLogin();
         } else if (viewId == R.id.btn_reg) {
-
+            intent.setClass(this, RegisterActivity.class);
+            startActivity(intent);
         }
+    }
+
+    private void doLogin() {
+        username = mUserName.getText().toString().trim();
+        pwd = mPassWord.getText().toString().trim();
+        if (!CommUtils.isMobile(username)) {
+            showMessageDialog("提示", "请输入正确的手机号码！");
+            return;
+        }
+        HashMap<String, String> paramers = new HashMap<>();
+        paramers.put("name", username);
+        paramers.put("pw", pwd);
+        VolleyHelper.getInstance().add(this, this, HttpWhatContacts.LOGIN, ApiContacts.USER_LOGIN, httpListener, paramers, true);
     }
 
     @Override
     protected boolean isShowToolBar() {
         return false;
+    }
+
+    @Override
+    public boolean isSamulation() {
+        return true;
+    }
+
+    @Override
+    public String getJsonStrName() {
+        return "login.json";
     }
 }

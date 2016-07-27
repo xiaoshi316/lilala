@@ -80,7 +80,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignTop="@+id/srpasswordicon"
             android:gravity="center_vertical"
-            android:text="忘记密码？"
+            android:text="@string/str_forgpwd"
             android:textColor="@color/forget_pwd_color"
             android:textSize="@dimen/ten_sp" />
 
@@ -97,7 +97,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/line2"
             android:layout_marginTop="20dp"
-            android:background="@drawable/button_shape"
+            android:background="@drawable/getcode_shape"
             android:text="登录"
             android:textColor="@color/white_color"
             android:textSize="@dimen/ten_sp" />
@@ -108,7 +108,7 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/btn_login"
             android:layout_marginTop="@dimen/ten_dp"
-            android:background="@drawable/button_shape2"
+            android:background="@drawable/btn_comm_next"
             android:text="还没有账号，去注册"
             android:textColor="@color/nomarl_text_color"
             android:textSize="@dimen/ten_sp" />

@@ -7,6 +7,7 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,19 +15,22 @@ import android.widget.FrameLayout;
 
 import com.android.lala.R;
 import com.android.lala.http.VolleyHelper;
+import com.android.lala.utils.CommUtils;
+import com.android.lala.utils.LalaLog;
 
-import java.util.HashMap;
+import java.io.IOException;
+import java.io.InputStream;
 
 
 /**
  * @author ssx
  */
-public abstract class BaseActivity extends AppCompatActivity {
-
+public abstract class BaseActivity extends AppCompatActivity{
     private CoordinatorLayout mCoordinatorLayout;
     private AppBarLayout mAppBarLayout;
     private Toolbar mToolbar;
     private FrameLayout mContentLayout;
+    public String TAG = this.getClass().getSimpleName();
 
     @Override
     protected final void onCreate(Bundle savedInstanceState) {
@@ -189,8 +193,60 @@ public abstract class BaseActivity extends AppCompatActivity {
         builder.show();
     }
 
-    public void request(String url, final HashMap<String, String> paramers) {
+    /***
+     * Show message dialog with custom DialogInterface.OnClickListener
+     *
+     * @param title
+     * @param message
+     * @param okListener
+     */
+    public void showMessageDialog(CharSequence title, CharSequence message, DialogInterface.OnClickListener okListener) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton(R.string.dialog_ok, okListener);
+        builder.show();
+    }
 
+    /***
+     * 是否使用离线数据
+     *
+     * @return
+     */
+    public boolean isSamulation() {
+        return false;
+    }
+
+    /***
+     * 返回Assets目录下面json 文件名称
+     *
+     * @return
+     */
+    public String getJsonStrName() {
+        return null;
+    }
+
+    /***
+     * 根据 jsonName获取文件内容
+     *
+     * @return
+     */
+    public String getAssData() {
+        String jsonName = getJsonStrName();
+        if (TextUtils.isEmpty(jsonName)) {
+            LalaLog.e(TAG, "you should override getJsonStrName");
+            return null;
+        } else {
+            String result;
+            try {
+                InputStream inputStream = getAssets().open(jsonName);
+                result = CommUtils.InputStreamToString(inputStream);
+            } catch (IOException e) {
+                e.printStackTrace();
+                return null;
+            }
+            return result;
+        }
     }
 
     @Override

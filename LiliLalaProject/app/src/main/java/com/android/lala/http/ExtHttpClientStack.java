@@ -141,8 +141,8 @@ public class ExtHttpClientStack implements HttpStack {
      * Creates the appropriate subclass of HttpUriRequest for passed in request.
      */
     @SuppressWarnings("deprecation")
-    /* protected */static HttpUriRequest createHttpRequest(Request<?> request,
-                                                           Map<String, String> additionalHeaders)
+    /* protected */ static HttpUriRequest createHttpRequest(Request<?> request,
+                                                            Map<String, String> additionalHeaders)
             throws AuthFailureError {
         switch (request.getMethod()) {
             case Method.DEPRECATED_GET_OR_POST: {
@@ -195,7 +195,7 @@ public class ExtHttpClientStack implements HttpStack {
 
     /**
      * Called before the request is executed using the underlying HttpClient.
-     *
+     * <p>
      * <p>
      * Overwrite in subclasses to augment the request.
      * </p>

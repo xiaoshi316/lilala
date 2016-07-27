@@ -3,15 +3,13 @@ package com.android.lala.utils;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.lala.LaLaAppaction;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 /***
  * @author xiaoshi email:emotiona_xiaoshi@126.com
- * @TODO 日志工具类
+ * 日志工具类
  * @2015年8月26日
  */
 public class LalaLog {
@@ -22,10 +20,14 @@ public class LalaLog {
     }
 
     public static final String SSX_TAG = "ssx";
-    private static boolean DEBUG = LaLaAppaction.DEBUG;//打印日志
+    private static boolean DEBUG = false;//打印日志
     private static final String TAG = "TAG";
     private static final String LINE_SEPARATOR = System.getProperty("line.separator");
     private static final int JSON_INDENT = 4;
+
+    public static void setDebug(boolean debug) {
+        LalaLog.DEBUG = debug;
+    }
 
     public static void i(String msg) {
         if (DEBUG)

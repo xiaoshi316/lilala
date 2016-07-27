@@ -7,4 +7,5 @@
     <color name="white_color">@android:color/white</color>
     <color name="forget_pwd_color">#FF7043</color>
     <color name="nomarl_grey_bg_color">#bbbbbb</color>
+    <color name="view_line_color">#bbbbbb</color>
 </resources>

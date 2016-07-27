@@ -25,7 +25,6 @@ import com.squareup.picasso.RequestCreator;
 
 /***
  * @author xiaoshi email:emotiona_xiaoshi@126.com
- * @TODO 复用控件类
  * @2015年7月14日
  */
 public class BaseListViewViewHolder {
@@ -113,7 +112,6 @@ public class BaseListViewViewHolder {
      * @param color
      * @return
      * @2015年8月26日下午2:38:29
-     * @TODO 设置字体颜色
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -128,7 +126,6 @@ public class BaseListViewViewHolder {
      * @param typeface
      * @return
      * @2015年8月26日下午3:07:32
-     * @TODO 设置TextView 字体
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -144,7 +141,6 @@ public class BaseListViewViewHolder {
      * @param resId
      * @return
      * @2015年8月26日下午3:08:05
-     * @TODO 根据资源ID设置图片
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -159,7 +155,6 @@ public class BaseListViewViewHolder {
      * @param bitmap
      * @return
      * @2015年8月26日下午3:08:30
-     * @TODO 根据Bitmap 设置图片
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -174,7 +169,6 @@ public class BaseListViewViewHolder {
      * @param url
      * @return
      * @2015年8月26日下午3:09:17
-     * @TODO 根据URL加载图片
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -192,7 +186,6 @@ public class BaseListViewViewHolder {
      * @param requestBuilder
      * @return
      * @2015年8月26日下午2:42:38
-     * @TODO 自定义Picasso 设置图片 根据用户需要来
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -207,7 +200,6 @@ public class BaseListViewViewHolder {
      * @param value
      * @return
      * @2015年8月26日下午2:47:58
-     * @TODO 给View 设置动画
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -229,7 +221,6 @@ public class BaseListViewViewHolder {
      * @param visible
      * @return
      * @2015年8月26日下午2:51:48
-     * @TODO 设置View是否显示
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -243,8 +234,6 @@ public class BaseListViewViewHolder {
      * @param viewId
      * @return
      * @2015年8月26日下午3:01:50
-     * @TODO 添加超链接
-     * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
     public BaseListViewViewHolder linkify(int viewId) {
@@ -258,7 +247,6 @@ public class BaseListViewViewHolder {
      * @param progress
      * @return
      * @2015年8月26日下午3:10:07
-     * @TODO 设置进度条
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -274,7 +262,6 @@ public class BaseListViewViewHolder {
      * @param max
      * @return
      * @2015年8月26日下午3:10:40
-     * @TODO 设置进度条
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -290,7 +277,6 @@ public class BaseListViewViewHolder {
      * @param max
      * @return
      * @2015年8月26日下午3:11:22
-     * @TODO 设置进度条
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -305,7 +291,6 @@ public class BaseListViewViewHolder {
      * @param rating
      * @return
      * @2015年8月26日下午3:12:03
-     * @TODO 设置星星
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -321,7 +306,6 @@ public class BaseListViewViewHolder {
      * @param max
      * @return
      * @2015年8月26日下午3:12:35
-     * @TODO 用一句话来描述此功能的用途
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -337,7 +321,6 @@ public class BaseListViewViewHolder {
      * @param tag
      * @return
      * @2015年8月26日下午3:13:09
-     * @TODO 给View设置tag
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -353,7 +336,6 @@ public class BaseListViewViewHolder {
      * @param tag
      * @return
      * @2015年8月26日下午3:13:47
-     * @TODO 给View设置tag
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -368,7 +350,6 @@ public class BaseListViewViewHolder {
      * @param checked
      * @return
      * @2015年8月26日下午3:14:35
-     * @TODO 设置复选框
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -383,7 +364,6 @@ public class BaseListViewViewHolder {
      * @param adapter
      * @return
      * @2015年8月26日下午3:15:39
-     * @TODO 设置Adapter
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -398,7 +378,6 @@ public class BaseListViewViewHolder {
      * @param listener
      * @return
      * @2015年8月26日下午3:16:12
-     * @TODO 设置点击事件
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -413,7 +392,6 @@ public class BaseListViewViewHolder {
      * @param listener
      * @return
      * @2015年8月26日下午3:16:37
-     * @TODO 设置触摸事件
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -428,7 +406,6 @@ public class BaseListViewViewHolder {
      * @param listener
      * @return
      * @2015年8月26日下午3:17:13
-     * @TODO 设置长按事件
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */
@@ -443,7 +420,6 @@ public class BaseListViewViewHolder {
      * @param color
      * @return
      * @2015年8月26日下午2:33:26
-     * @TODO 设置背景颜色
      * @author emotiona
      * @Email emotiona_xiaoshi@126.com
      */

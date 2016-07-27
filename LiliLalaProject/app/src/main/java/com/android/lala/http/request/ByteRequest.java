@@ -33,7 +33,6 @@ public class ByteRequest extends Request<byte[]> {
 
     @Override
     protected void deliverResponse(byte[] response) {
-        // TODO Auto-generated method stub
         if (this.mListener != null) {
             this.mListener.onResponse(response);
         }

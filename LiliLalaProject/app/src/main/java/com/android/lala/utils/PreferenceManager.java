@@ -17,10 +17,7 @@ import android.content.SharedPreferences.Editor;
  *
  */
 public class PreferenceManager {
-	/***
-	 * 共享首先项
-	 */
-	private static final String PREFERENCE_NAME = "HandPayPreference";
+	private static final String PREFERENCE_NAME = "LalaPreference";
 	private static SharedPreferences shareditorPreferences;
 	public static Editor editor;
 	private static PreferenceManager shareferenceManager;

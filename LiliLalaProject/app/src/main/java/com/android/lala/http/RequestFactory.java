@@ -1,7 +1,9 @@
 package com.android.lala.http;
 
+import android.content.Context;
 import android.content.DialogInterface;
 
+import com.android.lala.R;
 import com.android.lala.base.BaseActivity;
 import com.android.lala.customview.WaitDialog;
 import com.android.lala.http.listener.HttpListener;
@@ -23,9 +25,11 @@ import java.util.Map;
 public class RequestFactory {
     private static final int DEFAULT_TIME_OUT = 20 * 1000;
     private static volatile RequestFactory mFactory;
+    private Context mContext;
 
     private RequestFactory(BaseActivity activity) {
         mWaitDialog = new WaitDialog(activity);
+        mContext = activity.getApplicationContext();
     }
 
     public static RequestFactory getInstance(BaseActivity activity) {
@@ -58,21 +62,21 @@ public class RequestFactory {
                 Class volleyErrorClass = volleyError.getClass();
                 String message = "未知异常";
                 if (volleyErrorClass == com.android.volley.ServerError.class) {
-                    message = "服务不可用，请稍后重试!";
+                    message = mContext.getString(R.string.network_server_error);
                 } else if (volleyErrorClass == com.android.volley.AuthFailureError.class) {
-                    message = "身份验证未通过，请稍后重试!";
+                    message = mContext.getString(R.string.network_author_error);
                 } else if (volleyErrorClass == com.android.volley.ParseError.class) {
-                    message = "解析数据错误，请稍后重试!";
+                    message = mContext.getString(R.string.network_parser_error);
                 } else if (volleyErrorClass == com.android.volley.TimeoutError.class) {
-                    message = "网络连接超时，请稍后重试！";
+                    message = mContext.getString(R.string.network_timeout_error);
                 } else if (volleyError instanceof NetworkError) {
                     if (volleyErrorClass == com.android.volley.NoConnectionError.class) {
-                        message = "无法连接服务器,请检查网络地址是否正确!";
+                        message = mContext.getString(R.string.network_connect_error);
                     } else {
-                        message = "网络连接异常，请检查网络!";
+                        message = mContext.getString(R.string.network_nomarl_error);
                     }
                 } else {
-                    message = "重定向错误，请稍后重试!";
+                    message = mContext.getString(R.string.network_red_error);
                 }
                 LalaLog.i("error:", message);
                 httpListener.onFail(message);
