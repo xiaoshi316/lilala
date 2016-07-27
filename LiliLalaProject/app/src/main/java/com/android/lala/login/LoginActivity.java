@@ -29,7 +29,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private String username;
     private String pwd;
     private HttpListener<String> httpListener;
-
     @Override
     protected void onActivityCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_login);
