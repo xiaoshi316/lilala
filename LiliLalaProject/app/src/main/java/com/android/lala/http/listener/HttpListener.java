@@ -5,7 +5,7 @@ public interface HttpListener<T> {
      * @param response
      * @return
      */
-    void onSuccess(T response);
+    void onSuccess(int what, T response);
 
     /***
      * @param errMsg

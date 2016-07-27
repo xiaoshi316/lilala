@@ -23,7 +23,6 @@ import com.android.lala.R;
 
 
 /**
- *
  * @author ssx.
  */
 public class WaitDialog extends ProgressDialog {
@@ -32,6 +31,7 @@ public class WaitDialog extends ProgressDialog {
         super(context);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setCanceledOnTouchOutside(false);
+        setCancelable(false);
         setProgressStyle(STYLE_SPINNER);
         setMessage(context.getText(R.string.wait_dialog_title));
     }

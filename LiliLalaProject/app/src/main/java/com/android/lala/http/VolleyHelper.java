@@ -60,12 +60,23 @@ public class VolleyHelper {
         }
     }
 
-    public void add(Request<?> request) {
-        if (requestQueue!=null){
+    public void add(Object tag, Request<?> request) {
+        if (requestQueue != null) {
+            request.setTag(tag);
             requestQueue.add(request);
-        }else {
+        } else {
             throw new IllegalArgumentException("RequestQueue is not initialized,please check your BaseActivity's onCreate!");
         }
+    }
+
+    /***
+     * cancel the request by tag
+     *
+     * @param tag
+     */
+    public void cancel(Object tag) {
+        if (requestQueue != null)
+            requestQueue.cancelAll(tag);
     }
 
     /**

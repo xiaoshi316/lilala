@@ -39,11 +39,16 @@ public abstract class BaseActivity extends AppCompatActivity {
         mContentLayout = (FrameLayout) findViewById(R.id.content);
         setSupportActionBar(mToolbar);
         setBackBar(true);
+        if (!isShowToolBar()) {
+            getSupportActionBar().hide();
+        }
         onActivityCreate(savedInstanceState);
         initListener();
     }
 
     protected abstract void initListener();
+
+    protected abstract boolean isShowToolBar();
 
     protected abstract void onActivityCreate(Bundle savedInstanceState);
 
@@ -185,7 +190,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     public void request(String url, final HashMap<String, String> paramers) {
-    
+
     }
 
     @Override
