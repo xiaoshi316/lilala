@@ -30,4 +30,5 @@
     <string name="smssdk_key">1238163940198</string>
     <string name="hint_true_pwd">填写6~18位包含字母数字的密码</string>
     <string name="hint_align_pwd">再次确认密码</string>
+    <string name="str_finish">完成注册</string>
 </resources>

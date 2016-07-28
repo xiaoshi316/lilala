@@ -95,7 +95,8 @@
 
         <Button
             android:id="@+id/btn_next"
-            style="@style/WrapContent.WidthMatchParent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/line4"
             android:layout_marginEnd="@dimen/ten_dp"
@@ -108,7 +109,8 @@
 
         <Button
             android:id="@+id/btn_relogin"
-            style="@style/WrapContent.WidthMatchParent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/btn_next"
             android:layout_marginEnd="@dimen/ten_dp"
