@@ -18,9 +18,16 @@
     <string name="network_nomarl_error">网络连接异常，请检查网络!</string>
     <string name="network_red_error">重定向错误，请稍后重试!</string>
     <string name="hint_phone">输入手机号</string>
+    <string name="hint_true_phone">输入正确的手机号</string>
     <string name="str_getcode">获取验证码</string>
     <string name="hint_input_code">请输入验证码</string>
     <string name="next_step">下一步</string>
     <string name="str_gologin">已有有账号，去登陆</string>
     <string name="str_forgpwd">忘记密码？</string>
+
+    <!--SMSSDK KEY-->
+    <string name="smssdk_value">136d3c822d102ed6a4088350618acc4b</string>
+    <string name="smssdk_key">1238163940198</string>
+    <string name="hint_true_pwd">填写6~18位包含字母数字的密码</string>
+    <string name="hint_align_pwd">再次确认密码</string>
 </resources>

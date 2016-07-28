@@ -5,17 +5,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.lala.MainActivity;
 import com.android.lala.R;
 import com.android.lala.api.ApiContacts;
 import com.android.lala.api.HttpWhatContacts;
 import com.android.lala.base.BaseActivity;
+import com.android.lala.fastjson.FastJsonHelper;
+import com.android.lala.fastjson.Helper;
+import com.android.lala.fastjson.JsonResultUtils;
 import com.android.lala.http.VolleyHelper;
 import com.android.lala.http.listener.HttpListener;
+import com.android.lala.login.bean.UserBean;
 import com.android.lala.register.RegisterActivity;
 import com.android.lala.utils.CommUtils;
-import com.android.lala.utils.LalaLog;
 
 import java.util.HashMap;
 
@@ -25,10 +30,11 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private TextView ForgotPwd;
     private Button btn_login;
     private Button btn_reg;
-
+    private ImageView iv_cross;
     private String username;
     private String pwd;
     private HttpListener<String> httpListener;
+
     @Override
     protected void onActivityCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_login);
@@ -37,15 +43,28 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         mPassWord = findView(R.id.lg_password);
         btn_login = findView(R.id.btn_login);
         btn_reg = findView(R.id.btn_reg);
+        iv_cross = findView(R.id.cross);
     }
 
     @Override
     protected void initListener() {
         btn_login.setOnClickListener(this);
+        btn_reg.setOnClickListener(this);
+        iv_cross.setOnClickListener(this);
         httpListener = new HttpListener<String>() {
             @Override
             public void onSuccess(int what, String response) {
-                LalaLog.json("response:", response);
+                Helper helper = JsonResultUtils.helper(response);
+                String user = helper.getContentByKey("user");
+                UserBean userBean = FastJsonHelper.getObject(user, UserBean.class);
+                if (null != userBean) {
+                    Intent intent = new Intent();
+                    intent.setClass(LoginActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                } else {
+                    showMessageDialog("登录失败", "解析数据错误！");
+                }
             }
 
             @Override
@@ -64,6 +83,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         } else if (viewId == R.id.btn_reg) {
             intent.setClass(this, RegisterActivity.class);
             startActivity(intent);
+        } else if (viewId == R.id.cross) {
+            finish();
         }
     }
 

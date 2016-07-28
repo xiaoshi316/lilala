@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg_nor.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg_nor.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_edittext_bg_selector.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_edittext_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_btn_disenable.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_btn_disenable.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_bg_selector.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg_pre.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg_pre.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_btn_enable.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_btn_enable.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_up.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_up.xml"
+    },
+    {
+        "merged": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_dialog_btn_back.xml",
+        "source": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_dialog_btn_back.xml"
+    }
+]

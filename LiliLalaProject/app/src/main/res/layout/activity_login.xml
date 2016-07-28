@@ -14,9 +14,10 @@
         android:src="@mipmap/cross" />
 
     <RelativeLayout
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        style="@style/WrapContent"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="@dimen/thirtieth_dp"
+        android:layout_marginStart="@dimen/thirtieth_dp">
 
         <ImageView
             android:id="@+id/sridicon"
@@ -39,7 +40,7 @@
             android:text="13618498347"
             android:textColor="@color/white_color"
             android:textColorHint="@color/white_color"
-            android:textSize="@dimen/ten_sp" />
+            android:textSize="@dimen/fourty_sp" />
 
         <View
             android:id="@+id/line1"
@@ -71,7 +72,7 @@
             android:text="789666"
             android:textColor="@color/white_color"
             android:textColorHint="@color/white_color"
-            android:textSize="@dimen/ten_sp" />
+            android:textSize="@dimen/fourty_sp" />
 
         <TextView
             android:id="@+id/forgotpasswordtext"

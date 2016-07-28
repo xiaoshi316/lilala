@@ -24,6 +24,18 @@ public class CommUtils {
         }
     }
 
+    /***
+     *
+     * @param pwd
+     * @return
+     */
+    public static boolean isEnabalePwd(String pwd) {
+        String regExp = "^(?![^a-zA-Z]+$)(?!\\D+$).{6,18}$";
+        Pattern p = Pattern.compile(regExp);
+        Matcher m = p.matcher(pwd);
+        return m.matches();
+    }
+
     /**
      * @param instream
      * @return

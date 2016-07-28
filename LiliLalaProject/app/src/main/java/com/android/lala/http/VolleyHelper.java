@@ -21,6 +21,7 @@ import android.content.Context;
 import com.android.lala.LaLaAppaction;
 import com.android.lala.base.BaseActivity;
 import com.android.lala.http.listener.HttpListener;
+import com.android.lala.utils.LalaLog;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
@@ -65,12 +66,14 @@ public class VolleyHelper {
 
     public void add(BaseActivity activity, Object tag, int what, String url, HttpListener<String> httpListener, HashMap<String, String> paramers, boolean isLoading) {
         if (requestQueue != null) {
-            if (!activity.isSamulation()){
+            if (!activity.isSamulation()) {
                 Request<String> request = RequestFactory.getInstance(activity).createStringRequest(what, url, httpListener, paramers, isLoading);
                 request.setTag(tag);
                 requestQueue.add(request);
-            }else {
-                httpListener.onSuccess(what,activity.getAssData());
+            } else {
+                String result = activity.getAssData();
+                LalaLog.json("response:", result);
+                httpListener.onSuccess(what, result);
             }
         } else {
             throw new IllegalArgumentException("RequestQueue is not initialized,please check your BaseActivity's onCreate!");

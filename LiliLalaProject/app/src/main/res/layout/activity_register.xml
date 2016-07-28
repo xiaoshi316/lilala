@@ -5,17 +5,18 @@
 
     <ImageView
         android:id="@+id/cross"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="@dimen/twenty_five_dp"
+        android:layout_height="@dimen/twenty_five_dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_margin="@dimen/ten_dp"
         android:src="@mipmap/cross" />
 
     <RelativeLayout
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        style="@style/WrapContent"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="@dimen/thirtieth_dp"
+        android:layout_marginStart="@dimen/thirtieth_dp">
 
         <ImageView
             android:id="@+id/srphoneicon"
@@ -38,7 +39,7 @@
             android:inputType="phone"
             android:maxLength="11"
             android:singleLine="true"
-            android:textSize="@dimen/ten_sp" />
+            android:textSize="@dimen/fourty_sp" />
 
         <View
             android:id="@+id/line3"
@@ -63,12 +64,13 @@
             android:layout_alignTop="@+id/srcodeicon"
             android:layout_toLeftOf="@+id/btn_getcode"
             android:layout_toRightOf="@+id/srcodeicon"
+            android:inputType="number"
             android:background="@null"
             android:hint="@string/hint_input_code"
             android:singleLine="true"
-            android:textSize="@dimen/ten_sp" />
+            android:textSize="@dimen/fourty_sp" />
 
-        <Button
+        <com.android.lala.customview.TimeButton
             android:id="@+id/btn_getcode"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/twenty_five_dp"
@@ -76,6 +78,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignTop="@+id/srcodeicon"
             android:background="@drawable/getcode_shape"
+            android:enabled="false"
             android:paddingLeft="@dimen/ten_dp"
             android:paddingRight="@dimen/ten_dp"
             android:text="@string/str_getcode"
@@ -88,14 +91,16 @@
             style="@style/MatchParent.Line"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/srcodeicon"
-            android:background="#bbbbbb" />
+            android:background="@color/view_line_color" />
 
         <Button
             android:id="@+id/btn_next"
             style="@style/WrapContent.WidthMatchParent"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/line4"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/twenty_dp"
             android:background="@drawable/getcode_shape"
             android:text="@string/next_step"
             android:textColor="@color/white_color"
@@ -106,9 +111,10 @@
             style="@style/WrapContent.WidthMatchParent"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/btn_next"
-            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/ten_dp"
             android:background="@drawable/btn_comm_next"
-            android:enabled="false"
             android:text="@string/str_gologin"
             android:textColor="@color/nomarl_text_color"
             android:textSize="@dimen/ten_sp" />

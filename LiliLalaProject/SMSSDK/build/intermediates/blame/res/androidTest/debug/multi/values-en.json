@@ -1,0 +1,2909 @@
+[
+    {
+        "outputFile": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 16,
+                    "endColumn": 16,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 16,
+                        "endColumn": 16,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endLine": 36,
+                    "endColumn": 16,
+                    "endOffset": 2051
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 977,
+                        "endLine": 36,
+                        "endColumn": 16,
+                        "endOffset": 2051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2056,
+                    "endLine": 55,
+                    "endColumn": 16,
+                    "endOffset": 3230
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2056,
+                        "endLine": 55,
+                        "endColumn": 16,
+                        "endOffset": 3230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3235,
+                    "endLine": 62,
+                    "endColumn": 16,
+                    "endOffset": 3638
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3235,
+                        "endLine": 62,
+                        "endColumn": 16,
+                        "endOffset": 3638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3643,
+                    "endLine": 71,
+                    "endColumn": 16,
+                    "endOffset": 4046
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3643,
+                        "endLine": 71,
+                        "endColumn": 16,
+                        "endOffset": 4046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4051,
+                    "endLine": 79,
+                    "endColumn": 16,
+                    "endOffset": 4553
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 4051,
+                        "endLine": 79,
+                        "endColumn": 16,
+                        "endOffset": 4553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4558,
+                    "endLine": 96,
+                    "endColumn": 16,
+                    "endOffset": 5499
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4558,
+                        "endLine": 96,
+                        "endColumn": 16,
+                        "endOffset": 5499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5504,
+                    "endLine": 102,
+                    "endColumn": 16,
+                    "endOffset": 5838
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 5504,
+                        "endLine": 102,
+                        "endColumn": 16,
+                        "endOffset": 5838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5843,
+                    "endLine": 113,
+                    "endColumn": 16,
+                    "endOffset": 8347
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5843,
+                        "endLine": 113,
+                        "endColumn": 16,
+                        "endOffset": 8347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8352,
+                    "endLine": 119,
+                    "endColumn": 16,
+                    "endOffset": 9224
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 8352,
+                        "endLine": 119,
+                        "endColumn": 16,
+                        "endOffset": 9224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 9229,
+                    "endLine": 126,
+                    "endColumn": 16,
+                    "endOffset": 9534
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 9229,
+                        "endLine": 126,
+                        "endColumn": 16,
+                        "endOffset": 9534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 9539,
+                    "endLine": 137,
+                    "endColumn": 16,
+                    "endOffset": 10079
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 9539,
+                        "endLine": 137,
+                        "endColumn": 16,
+                        "endOffset": 10079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 10084,
+                    "endLine": 160,
+                    "endColumn": 16,
+                    "endOffset": 11245
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 10084,
+                        "endLine": 160,
+                        "endColumn": 16,
+                        "endOffset": 11245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11250,
+                    "endLine": 173,
+                    "endColumn": 16,
+                    "endOffset": 12081
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 11250,
+                        "endLine": 173,
+                        "endColumn": 16,
+                        "endOffset": 12081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 12086,
+                    "endLine": 176,
+                    "endColumn": 16,
+                    "endOffset": 12187
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 12086,
+                        "endLine": 176,
+                        "endColumn": 16,
+                        "endOffset": 12187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 12192,
+                    "endLine": 189,
+                    "endColumn": 16,
+                    "endOffset": 12928
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 12192,
+                        "endLine": 189,
+                        "endColumn": 16,
+                        "endOffset": 12928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 12933,
+                    "endLine": 192,
+                    "endColumn": 16,
+                    "endOffset": 13035
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 12933,
+                        "endLine": 192,
+                        "endColumn": 16,
+                        "endOffset": 13035
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 13040,
+                    "endLine": 199,
+                    "endColumn": 16,
+                    "endOffset": 13410
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 13040,
+                        "endLine": 199,
+                        "endColumn": 16,
+                        "endOffset": 13410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 13415,
+                    "endLine": 229,
+                    "endColumn": 16,
+                    "endOffset": 15308
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 13415,
+                        "endLine": 229,
+                        "endColumn": 16,
+                        "endOffset": 15308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 15313,
+                    "endLine": 242,
+                    "endColumn": 16,
+                    "endOffset": 16087
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 15313,
+                        "endLine": 242,
+                        "endColumn": 16,
+                        "endOffset": 16087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 16092,
+                    "endLine": 251,
+                    "endColumn": 16,
+                    "endOffset": 17328
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 16092,
+                        "endLine": 251,
+                        "endColumn": 16,
+                        "endOffset": 17328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 17333,
+                    "endLine": 258,
+                    "endColumn": 16,
+                    "endOffset": 17657
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 17333,
+                        "endLine": 258,
+                        "endColumn": 16,
+                        "endOffset": 17657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 17662,
+                    "endLine": 261,
+                    "endColumn": 16,
+                    "endOffset": 17729
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 17662,
+                        "endLine": 261,
+                        "endColumn": 16,
+                        "endOffset": 17729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 17734,
+                    "endLine": 264,
+                    "endColumn": 16,
+                    "endOffset": 17801
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 17734,
+                        "endLine": 264,
+                        "endColumn": 16,
+                        "endOffset": 17801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 17806,
+                    "endLine": 267,
+                    "endColumn": 16,
+                    "endOffset": 17914
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 17806,
+                        "endLine": 267,
+                        "endColumn": 16,
+                        "endOffset": 17914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 17919,
+                    "endLine": 271,
+                    "endColumn": 19,
+                    "endOffset": 18079
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 17919,
+                        "endLine": 271,
+                        "endColumn": 19,
+                        "endOffset": 18079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 18084,
+                    "endColumn": 81,
+                    "endOffset": 18161
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 18084,
+                        "endColumn": 81,
+                        "endOffset": 18161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 18166,
+                    "endColumn": 50,
+                    "endOffset": 18212
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 18166,
+                        "endColumn": 50,
+                        "endOffset": 18212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 18217,
+                    "endColumn": 45,
+                    "endOffset": 18258
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 18217,
+                        "endColumn": 45,
+                        "endOffset": 18258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 18263,
+                    "endColumn": 48,
+                    "endOffset": 18307
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 18263,
+                        "endColumn": 48,
+                        "endOffset": 18307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 18312,
+                    "endColumn": 82,
+                    "endOffset": 18390
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 18312,
+                        "endColumn": 82,
+                        "endOffset": 18390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 18395,
+                    "endColumn": 64,
+                    "endOffset": 18455
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 18395,
+                        "endColumn": 64,
+                        "endOffset": 18455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 18460,
+                    "endColumn": 141,
+                    "endOffset": 18597
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 18460,
+                        "endColumn": 141,
+                        "endOffset": 18597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 18602,
+                    "endColumn": 62,
+                    "endOffset": 18660
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 18602,
+                        "endColumn": 62,
+                        "endOffset": 18660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 18665,
+                    "endColumn": 66,
+                    "endOffset": 18727
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 18665,
+                        "endColumn": 66,
+                        "endOffset": 18727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 18732,
+                    "endColumn": 71,
+                    "endOffset": 18799
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 18732,
+                        "endColumn": 71,
+                        "endOffset": 18799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 18804,
+                    "endColumn": 58,
+                    "endOffset": 18858
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 18804,
+                        "endColumn": 58,
+                        "endOffset": 18858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 18863,
+                    "endColumn": 50,
+                    "endOffset": 18909
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 18863,
+                        "endColumn": 50,
+                        "endOffset": 18909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 18914,
+                    "endColumn": 105,
+                    "endOffset": 19015
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 18914,
+                        "endColumn": 105,
+                        "endOffset": 19015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 19020,
+                    "endColumn": 65,
+                    "endOffset": 19081
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 19020,
+                        "endColumn": 65,
+                        "endOffset": 19081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 19086,
+                    "endColumn": 64,
+                    "endOffset": 19146
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 19086,
+                        "endColumn": 64,
+                        "endOffset": 19146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 19151,
+                    "endColumn": 70,
+                    "endOffset": 19217
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 19151,
+                        "endColumn": 70,
+                        "endOffset": 19217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 19222,
+                    "endColumn": 64,
+                    "endOffset": 19282
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 19222,
+                        "endColumn": 64,
+                        "endOffset": 19282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 19287,
+                    "endColumn": 66,
+                    "endOffset": 19349
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 19287,
+                        "endColumn": 66,
+                        "endOffset": 19349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 19354,
+                    "endColumn": 65,
+                    "endOffset": 19415
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 19354,
+                        "endColumn": 65,
+                        "endOffset": 19415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 19420,
+                    "endColumn": 69,
+                    "endOffset": 19485
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 19420,
+                        "endColumn": 69,
+                        "endOffset": 19485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 19490,
+                    "endColumn": 66,
+                    "endOffset": 19552
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 19490,
+                        "endColumn": 66,
+                        "endOffset": 19552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 19557,
+                    "endColumn": 67,
+                    "endOffset": 19620
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 19557,
+                        "endColumn": 67,
+                        "endOffset": 19620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 19625,
+                    "endColumn": 76,
+                    "endOffset": 19697
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 19625,
+                        "endColumn": 76,
+                        "endOffset": 19697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 19702,
+                    "endColumn": 64,
+                    "endOffset": 19762
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 19702,
+                        "endColumn": 64,
+                        "endOffset": 19762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 19767,
+                    "endColumn": 67,
+                    "endOffset": 19830
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 19767,
+                        "endColumn": 67,
+                        "endOffset": 19830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 19835,
+                    "endColumn": 69,
+                    "endOffset": 19900
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 19835,
+                        "endColumn": 69,
+                        "endOffset": 19900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 19905,
+                    "endColumn": 71,
+                    "endOffset": 19972
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 19905,
+                        "endColumn": 71,
+                        "endOffset": 19972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 19977,
+                    "endColumn": 64,
+                    "endOffset": 20037
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 19977,
+                        "endColumn": 64,
+                        "endOffset": 20037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 20042,
+                    "endColumn": 65,
+                    "endOffset": 20103
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 20042,
+                        "endColumn": 65,
+                        "endOffset": 20103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 20108,
+                    "endColumn": 67,
+                    "endOffset": 20171
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 20108,
+                        "endColumn": 67,
+                        "endOffset": 20171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 20176,
+                    "endColumn": 68,
+                    "endOffset": 20240
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 20176,
+                        "endColumn": 68,
+                        "endOffset": 20240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 20245,
+                    "endColumn": 73,
+                    "endOffset": 20314
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 20245,
+                        "endColumn": 73,
+                        "endOffset": 20314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 20319,
+                    "endColumn": 70,
+                    "endOffset": 20385
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 20319,
+                        "endColumn": 70,
+                        "endOffset": 20385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 20390,
+                    "endColumn": 71,
+                    "endOffset": 20457
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 4,
+                        "startOffset": 20390,
+                        "endColumn": 71,
+                        "endOffset": 20457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 20462,
+                    "endColumn": 67,
+                    "endOffset": 20525
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 20462,
+                        "endColumn": 67,
+                        "endOffset": 20525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 20530,
+                    "endColumn": 67,
+                    "endOffset": 20593
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 20530,
+                        "endColumn": 67,
+                        "endOffset": 20593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 20598,
+                    "endColumn": 81,
+                    "endOffset": 20675
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 20598,
+                        "endColumn": 81,
+                        "endOffset": 20675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 20680,
+                    "endColumn": 81,
+                    "endOffset": 20757
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 20680,
+                        "endColumn": 81,
+                        "endOffset": 20757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 20762,
+                    "endColumn": 81,
+                    "endOffset": 20839
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 20762,
+                        "endColumn": 81,
+                        "endOffset": 20839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 20844,
+                    "endColumn": 81,
+                    "endOffset": 20921
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 20844,
+                        "endColumn": 81,
+                        "endOffset": 20921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 20926,
+                    "endColumn": 80,
+                    "endOffset": 21002
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 20926,
+                        "endColumn": 80,
+                        "endOffset": 21002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 21007,
+                    "endColumn": 110,
+                    "endOffset": 21113
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 21007,
+                        "endColumn": 110,
+                        "endOffset": 21113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 21118,
+                    "endColumn": 73,
+                    "endOffset": 21187
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 21118,
+                        "endColumn": 73,
+                        "endOffset": 21187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 21192,
+                    "endColumn": 67,
+                    "endOffset": 21255
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 21192,
+                        "endColumn": 67,
+                        "endOffset": 21255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 21260,
+                    "endColumn": 70,
+                    "endOffset": 21326
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 21260,
+                        "endColumn": 70,
+                        "endOffset": 21326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 21331,
+                    "endColumn": 60,
+                    "endOffset": 21387
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 21331,
+                        "endColumn": 60,
+                        "endOffset": 21387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 21392,
+                    "endColumn": 71,
+                    "endOffset": 21459
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 21392,
+                        "endColumn": 71,
+                        "endOffset": 21459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 21464,
+                    "endColumn": 104,
+                    "endOffset": 21564
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 21464,
+                        "endColumn": 104,
+                        "endOffset": 21564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 21569,
+                    "endColumn": 86,
+                    "endOffset": 21651
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 21569,
+                        "endColumn": 86,
+                        "endOffset": 21651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 21656,
+                    "endColumn": 83,
+                    "endOffset": 21735
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 21656,
+                        "endColumn": 83,
+                        "endOffset": 21735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 21740,
+                    "endColumn": 71,
+                    "endOffset": 21807
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 21740,
+                        "endColumn": 71,
+                        "endOffset": 21807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 21812,
+                    "endColumn": 72,
+                    "endOffset": 21880
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 21812,
+                        "endColumn": 72,
+                        "endOffset": 21880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 21885,
+                    "endColumn": 87,
+                    "endOffset": 21968
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 21885,
+                        "endColumn": 87,
+                        "endOffset": 21968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 21973,
+                    "endColumn": 78,
+                    "endOffset": 22047
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 21973,
+                        "endColumn": 78,
+                        "endOffset": 22047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 22052,
+                    "endColumn": 84,
+                    "endOffset": 22132
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 22052,
+                        "endColumn": 84,
+                        "endOffset": 22132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 22137,
+                    "endColumn": 89,
+                    "endOffset": 22222
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 22137,
+                        "endColumn": 89,
+                        "endOffset": 22222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 22227,
+                    "endColumn": 91,
+                    "endOffset": 22314
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 22227,
+                        "endColumn": 91,
+                        "endOffset": 22314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 22319,
+                    "endColumn": 79,
+                    "endOffset": 22394
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 22319,
+                        "endColumn": 79,
+                        "endOffset": 22394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 22399,
+                    "endColumn": 85,
+                    "endOffset": 22480
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 22399,
+                        "endColumn": 85,
+                        "endOffset": 22480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 22485,
+                    "endColumn": 81,
+                    "endOffset": 22562
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 22485,
+                        "endColumn": 81,
+                        "endOffset": 22562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 22567,
+                    "endColumn": 94,
+                    "endOffset": 22657
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 22567,
+                        "endColumn": 94,
+                        "endOffset": 22657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 22662,
+                    "endColumn": 101,
+                    "endOffset": 22759
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 22662,
+                        "endColumn": 101,
+                        "endOffset": 22759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 22764,
+                    "endColumn": 81,
+                    "endOffset": 22841
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 22764,
+                        "endColumn": 81,
+                        "endOffset": 22841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 22846,
+                    "endColumn": 129,
+                    "endOffset": 22971
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 22846,
+                        "endColumn": 129,
+                        "endOffset": 22971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 22976,
+                    "endColumn": 110,
+                    "endOffset": 23082
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 22976,
+                        "endColumn": 110,
+                        "endOffset": 23082
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 23087,
+                    "endColumn": 101,
+                    "endOffset": 23184
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 23087,
+                        "endColumn": 101,
+                        "endOffset": 23184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 23189,
+                    "endColumn": 86,
+                    "endOffset": 23271
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 23189,
+                        "endColumn": 86,
+                        "endOffset": 23271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 23276,
+                    "endColumn": 114,
+                    "endOffset": 23386
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 23276,
+                        "endColumn": 114,
+                        "endOffset": 23386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 23391,
+                    "endColumn": 69,
+                    "endOffset": 23456
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 23391,
+                        "endColumn": 69,
+                        "endOffset": 23456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 23461,
+                    "endColumn": 103,
+                    "endOffset": 23560
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 23461,
+                        "endColumn": 103,
+                        "endOffset": 23560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 23565,
+                    "endColumn": 107,
+                    "endOffset": 23668
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 23565,
+                        "endColumn": 107,
+                        "endOffset": 23668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 23673,
+                    "endColumn": 84,
+                    "endOffset": 23753
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 23673,
+                        "endColumn": 84,
+                        "endOffset": 23753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 23758,
+                    "endColumn": 95,
+                    "endOffset": 23849
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 23758,
+                        "endColumn": 95,
+                        "endOffset": 23849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 23854,
+                    "endColumn": 113,
+                    "endOffset": 23963
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 23854,
+                        "endColumn": 113,
+                        "endOffset": 23963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 23968,
+                    "endColumn": 101,
+                    "endOffset": 24065
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 23968,
+                        "endColumn": 101,
+                        "endOffset": 24065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 24070,
+                    "endColumn": 99,
+                    "endOffset": 24165
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 24070,
+                        "endColumn": 99,
+                        "endOffset": 24165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 24170,
+                    "endColumn": 114,
+                    "endOffset": 24280
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 24170,
+                        "endColumn": 114,
+                        "endOffset": 24280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 24285,
+                    "endColumn": 108,
+                    "endOffset": 24389
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 24285,
+                        "endColumn": 108,
+                        "endOffset": 24389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 24394,
+                    "endColumn": 115,
+                    "endOffset": 24505
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 24394,
+                        "endColumn": 115,
+                        "endOffset": 24505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 24510,
+                    "endColumn": 92,
+                    "endOffset": 24598
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 24510,
+                        "endColumn": 92,
+                        "endOffset": 24598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 24603,
+                    "endColumn": 88,
+                    "endOffset": 24687
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 24603,
+                        "endColumn": 88,
+                        "endOffset": 24687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 24692,
+                    "endColumn": 75,
+                    "endOffset": 24763
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 24692,
+                        "endColumn": 75,
+                        "endOffset": 24763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 24768,
+                    "endColumn": 109,
+                    "endOffset": 24873
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 24768,
+                        "endColumn": 109,
+                        "endOffset": 24873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 24878,
+                    "endColumn": 72,
+                    "endOffset": 24946
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 24878,
+                        "endColumn": 72,
+                        "endOffset": 24946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 24951,
+                    "endColumn": 102,
+                    "endOffset": 25049
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 24951,
+                        "endColumn": 102,
+                        "endOffset": 25049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 25054,
+                    "endColumn": 96,
+                    "endOffset": 25146
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 25054,
+                        "endColumn": 96,
+                        "endOffset": 25146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 25151,
+                    "endColumn": 107,
+                    "endOffset": 25254
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 25151,
+                        "endColumn": 107,
+                        "endOffset": 25254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 25259,
+                    "endColumn": 88,
+                    "endOffset": 25343
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 25259,
+                        "endColumn": 88,
+                        "endOffset": 25343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 25348,
+                    "endColumn": 85,
+                    "endOffset": 25429
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 25348,
+                        "endColumn": 85,
+                        "endOffset": 25429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 25434,
+                    "endColumn": 73,
+                    "endOffset": 25503
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 25434,
+                        "endColumn": 73,
+                        "endOffset": 25503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 25508,
+                    "endColumn": 168,
+                    "endOffset": 25672
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 25508,
+                        "endColumn": 168,
+                        "endOffset": 25672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 25677,
+                    "endColumn": 118,
+                    "endOffset": 25791
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 25677,
+                        "endColumn": 118,
+                        "endOffset": 25791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 25796,
+                    "endColumn": 66,
+                    "endOffset": 25858
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 25796,
+                        "endColumn": 66,
+                        "endOffset": 25858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 25863,
+                    "endColumn": 48,
+                    "endOffset": 25907
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 25863,
+                        "endColumn": 48,
+                        "endOffset": 25907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 25912,
+                    "endColumn": 118,
+                    "endOffset": 26026
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 25912,
+                        "endColumn": 118,
+                        "endOffset": 26026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 26031,
+                    "endColumn": 105,
+                    "endOffset": 26132
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 26031,
+                        "endColumn": 105,
+                        "endOffset": 26132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 26137,
+                    "endColumn": 160,
+                    "endOffset": 26293
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 26137,
+                        "endColumn": 160,
+                        "endOffset": 26293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 26298,
+                    "endColumn": 76,
+                    "endOffset": 26370
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 26298,
+                        "endColumn": 76,
+                        "endOffset": 26370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 26375,
+                    "endColumn": 79,
+                    "endOffset": 26450
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 26375,
+                        "endColumn": 79,
+                        "endOffset": 26450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 26455,
+                    "endColumn": 80,
+                    "endOffset": 26531
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 26455,
+                        "endColumn": 80,
+                        "endOffset": 26531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 26536,
+                    "endColumn": 44,
+                    "endOffset": 26576
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 26536,
+                        "endColumn": 44,
+                        "endOffset": 26576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 26581,
+                    "endColumn": 105,
+                    "endOffset": 26682
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 26581,
+                        "endColumn": 105,
+                        "endOffset": 26682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 26687,
+                    "endColumn": 40,
+                    "endOffset": 26723
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 26687,
+                        "endColumn": 40,
+                        "endOffset": 26723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 26728,
+                    "endColumn": 127,
+                    "endOffset": 26851
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 26728,
+                        "endColumn": 127,
+                        "endOffset": 26851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 26856,
+                    "endColumn": 68,
+                    "endOffset": 26920
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 26856,
+                        "endColumn": 68,
+                        "endOffset": 26920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 26925,
+                    "endColumn": 80,
+                    "endOffset": 27001
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 377,
+                        "startColumn": 4,
+                        "startOffset": 26925,
+                        "endColumn": 80,
+                        "endOffset": 27001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 27006,
+                    "endColumn": 48,
+                    "endOffset": 27050
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 378,
+                        "startColumn": 4,
+                        "startOffset": 27006,
+                        "endColumn": 48,
+                        "endOffset": 27050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 27055,
+                    "endColumn": 64,
+                    "endOffset": 27115
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 27055,
+                        "endColumn": 64,
+                        "endOffset": 27115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 27120,
+                    "endColumn": 66,
+                    "endOffset": 27182
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 380,
+                        "startColumn": 4,
+                        "startOffset": 27120,
+                        "endColumn": 66,
+                        "endOffset": 27182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 27187,
+                    "endColumn": 163,
+                    "endOffset": 27346
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 381,
+                        "startColumn": 4,
+                        "startOffset": 27187,
+                        "endColumn": 163,
+                        "endOffset": 27346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 27351,
+                    "endColumn": 205,
+                    "endOffset": 27552
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 382,
+                        "startColumn": 4,
+                        "startOffset": 27351,
+                        "endColumn": 205,
+                        "endOffset": 27552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 27557,
+                    "endColumn": 96,
+                    "endOffset": 27649
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 383,
+                        "startColumn": 4,
+                        "startOffset": 27557,
+                        "endColumn": 96,
+                        "endOffset": 27649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 27654,
+                    "endColumn": 82,
+                    "endOffset": 27732
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 384,
+                        "startColumn": 4,
+                        "startOffset": 27654,
+                        "endColumn": 82,
+                        "endOffset": 27732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 27737,
+                    "endColumn": 94,
+                    "endOffset": 27827
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 385,
+                        "startColumn": 4,
+                        "startOffset": 27737,
+                        "endColumn": 94,
+                        "endOffset": 27827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 27832,
+                    "endColumn": 48,
+                    "endOffset": 27876
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 386,
+                        "startColumn": 4,
+                        "startOffset": 27832,
+                        "endColumn": 48,
+                        "endOffset": 27876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 27881,
+                    "endColumn": 141,
+                    "endOffset": 28018
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 27881,
+                        "endColumn": 141,
+                        "endOffset": 28018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 28023,
+                    "endColumn": 83,
+                    "endOffset": 28102
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 388,
+                        "startColumn": 4,
+                        "startOffset": 28023,
+                        "endColumn": 83,
+                        "endOffset": 28102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 28107,
+                    "endColumn": 90,
+                    "endOffset": 28193
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 389,
+                        "startColumn": 4,
+                        "startOffset": 28107,
+                        "endColumn": 90,
+                        "endOffset": 28193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 28198,
+                    "endColumn": 83,
+                    "endOffset": 28277
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 390,
+                        "startColumn": 4,
+                        "startOffset": 28198,
+                        "endColumn": 83,
+                        "endOffset": 28277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 28282,
+                    "endColumn": 44,
+                    "endOffset": 28322
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 28282,
+                        "endColumn": 44,
+                        "endOffset": 28322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 28327,
+                    "endColumn": 85,
+                    "endOffset": 28408
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 392,
+                        "startColumn": 4,
+                        "startOffset": 28327,
+                        "endColumn": 85,
+                        "endOffset": 28408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 28413,
+                    "endColumn": 84,
+                    "endOffset": 28493
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 393,
+                        "startColumn": 4,
+                        "startOffset": 28413,
+                        "endColumn": 84,
+                        "endOffset": 28493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 28498,
+                    "endColumn": 97,
+                    "endOffset": 28591
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 394,
+                        "startColumn": 4,
+                        "startOffset": 28498,
+                        "endColumn": 97,
+                        "endOffset": 28591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 28596,
+                    "endColumn": 80,
+                    "endOffset": 28672
+                },
+                "from": {
+                    "file": "E:\\lililala\\LiliLalaProject\\SMSSDK\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 28596,
+                        "endColumn": 80,
+                        "endOffset": 28672
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import com.android.lala.R;
 import com.android.lala.http.VolleyHelper;
@@ -25,7 +26,7 @@ import java.io.InputStream;
 /**
  * @author ssx
  */
-public abstract class BaseActivity extends AppCompatActivity{
+public abstract class BaseActivity extends AppCompatActivity {
     private CoordinatorLayout mCoordinatorLayout;
     private AppBarLayout mAppBarLayout;
     private Toolbar mToolbar;
@@ -206,6 +207,15 @@ public abstract class BaseActivity extends AppCompatActivity{
         builder.setMessage(message);
         builder.setPositiveButton(R.string.dialog_ok, okListener);
         builder.show();
+    }
+
+    /***
+     * show msg with Toast
+     *
+     * @param msg
+     */
+    public void showToastMsg(String msg) {
+        Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
     }
 
     /***
