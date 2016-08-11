@@ -17,6 +17,7 @@
 package com.android.lala.http;
 
 import android.content.Context;
+import android.text.TextUtils;
 
 import com.android.lala.LaLaAppaction;
 import com.android.lala.base.BaseActivity;
@@ -26,7 +27,9 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
+import java.io.File;
 import java.util.HashMap;
+import java.util.Map;
 
 /***
  * @author ssx
@@ -57,6 +60,7 @@ public class VolleyHelper {
      */
     public void init(Context context) {
         if (LaLaAppaction.isUseHTTPS) {
+//            use ssl keystore|jks|cer
 //            InputStream keyStore = context.getResources().openRawResource(R.raw.handpayssl);
 //            requestQueue = Volley.newRequestQueue(context, new ExtHttpClientStack(new SslHttpClient(keyStore, "handpay", 443)));
         } else {
@@ -64,14 +68,61 @@ public class VolleyHelper {
         }
     }
 
+    /***
+     * Post Request
+     *
+     * @param activity
+     * @param tag
+     * @param what
+     * @param url
+     * @param httpListener
+     * @param paramers
+     * @param isLoading
+     */
     public void add(BaseActivity activity, Object tag, int what, String url, HttpListener<String> httpListener, HashMap<String, String> paramers, boolean isLoading) {
         if (requestQueue != null) {
             if (!activity.isSamulation()) {
-                Request<String> request = RequestFactory.getInstance(activity).createStringRequest(what, url, httpListener, paramers, isLoading);
+                Request<String> request = new RequestFactory(activity).createStringRequest(what, url, httpListener, paramers, isLoading);
                 request.setTag(tag);
                 requestQueue.add(request);
             } else {
                 String result = activity.getAssData();
+                if (TextUtils.isEmpty(result)) {
+                    LalaLog.e("The samulation data is Empty!");
+                    return;
+                }
+                LalaLog.json("response:", result);
+                httpListener.onSuccess(what, result);
+            }
+        } else {
+            throw new IllegalArgumentException("RequestQueue is not initialized,please check your BaseActivity's onCreate!");
+        }
+    }
+
+    /***
+     * upload file request
+     *
+     * @param activity
+     * @param tag
+     * @param what
+     * @param url
+     * @param httpListener
+     * @param paramers
+     * @param files
+     * @param isLoading
+     */
+    public void addFile(BaseActivity activity, Object tag, int what, String url, HttpListener<String> httpListener, HashMap<String, String> paramers, Map<String, File> files, boolean isLoading) {
+        if (requestQueue != null) {
+            if (!activity.isSamulation()) {
+                Request<String> request = new RequestFactory(activity).createMulitPartRequest(what, url, httpListener, paramers, files, isLoading);
+                request.setTag(tag);
+                requestQueue.add(request);
+            } else {
+                String result = activity.getAssData();
+                if (TextUtils.isEmpty(result)) {
+                    LalaLog.e("The samulation data is Empty!");
+                    return;
+                }
                 LalaLog.json("response:", result);
                 httpListener.onSuccess(what, result);
             }
