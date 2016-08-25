@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.android.lala.MainActivity;
+import com.android.lala.home.MainActivity;
 import com.android.lala.R;
 import com.android.lala.api.ApiContacts;
 import com.android.lala.api.HttpWhatContacts;

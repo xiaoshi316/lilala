@@ -3,7 +3,6 @@ package com.android.lala.base;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.lala.R;
@@ -27,7 +27,6 @@ import java.io.InputStream;
  * @author ssx
  */
 public abstract class BaseActivity extends AppCompatActivity {
-    private CoordinatorLayout mCoordinatorLayout;
     private AppBarLayout mAppBarLayout;
     private Toolbar mToolbar;
     private FrameLayout mContentLayout;
@@ -38,11 +37,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getDelegate().setContentView(R.layout.activity_base);
         VolleyHelper.getInstance().init(this);
-        mCoordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorlayout);
         mAppBarLayout = (AppBarLayout) findViewById(R.id.appbarlayout);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mContentLayout = (FrameLayout) findViewById(R.id.content);
         setSupportActionBar(mToolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         setBackBar(true);
         if (!isShowToolBar()) {
             getSupportActionBar().hide();
@@ -61,9 +60,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         return (T) mContentLayout.findViewById(viewId);
     }
 
-    public CoordinatorLayout getCoordinatorLayout() {
-        return mCoordinatorLayout;
-    }
 
     public FrameLayout getContentLayout() {
         return mContentLayout;
@@ -79,12 +75,22 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
     public void setTitle(CharSequence title) {
-        mToolbar.setTitle(title);
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.tv_title);
+        if (!TextUtils.isEmpty(title)) {
+            mTitle.setText(title);
+        } else {
+            mTitle.setText("");
+        }
     }
 
     @Override
     public void setTitle(int titleId) {
-        mToolbar.setTitle(titleId);
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.tv_title);
+        if (titleId > 0) {
+            mTitle.setText(titleId);
+        } else {
+            mTitle.setText("");
+        }
     }
 
     public void setSubtitle(CharSequence title) {
@@ -100,7 +106,8 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     public void setTitleTextColor(int color) {
-        mToolbar.setTitleTextColor(color);
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.tv_title);
+        mTitle.setTextColor(color);
     }
 
     public void setBackBar(boolean isShow) {

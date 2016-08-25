@@ -144,7 +144,7 @@ public class LalaLog {
         methodName = methodName.substring(0, 1).toUpperCase() + methodName.substring(1);
 
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("(").append(className).append(":").append(lineNumber).append(")#").append(methodName).append("→");
+        stringBuilder.append("(").append(className).append(":").append(lineNumber).append(")").append("→");
         return stringBuilder.toString();
     }
 }

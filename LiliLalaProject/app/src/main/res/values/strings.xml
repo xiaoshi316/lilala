@@ -31,4 +31,11 @@
     <string name="hint_true_pwd">填写6~18位包含字母数字的密码</string>
     <string name="hint_align_pwd">再次确认密码</string>
     <string name="str_finish">完成注册</string>
+
+    <string name="hint_no_layout">需要重新定义你的Fragment Layout</string>
+    <string name="str_information">资讯</string>
+    <string name="str_leaderboard">榜单</string>
+    <string name="str_photo">照片</string>
+    <string name="str_circle">圈子</string>
+    <string name="str_mine">我的</string>
 </resources>

@@ -8,6 +8,6 @@ import com.android.lala.config.LalaConfig;
  * Date 2016.07.25
  **/
 public class ApiContacts {
-    public static final String USER_LOGIN = LalaConfig.httpServer + "/LELA/app/technology";
-    public static final String USER_REGISTER = LalaConfig.httpServer + "/LELA/app/register";
+    public static final String USER_LOGIN = LalaConfig.httpServer + "/app/login";
+    public static final String USER_REGISTER = LalaConfig.httpServer + "/app/register";
 }

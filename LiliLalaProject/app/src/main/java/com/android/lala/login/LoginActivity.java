@@ -8,7 +8,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.lala.MainActivity;
 import com.android.lala.R;
 import com.android.lala.api.ApiContacts;
 import com.android.lala.api.HttpWhatContacts;
@@ -16,13 +15,16 @@ import com.android.lala.base.BaseActivity;
 import com.android.lala.fastjson.FastJsonHelper;
 import com.android.lala.fastjson.Helper;
 import com.android.lala.fastjson.JsonResultUtils;
+import com.android.lala.home.MainActivity;
 import com.android.lala.http.VolleyHelper;
 import com.android.lala.http.listener.HttpListener;
 import com.android.lala.login.bean.UserBean;
 import com.android.lala.register.RegisterActivity;
 import com.android.lala.utils.CommUtils;
+import com.android.lala.utils.LalaLog;
 
 import java.util.HashMap;
+import java.util.List;
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
     private EditText mUserName;
@@ -56,8 +58,10 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             public void onSuccess(int what, String response) {
                 Helper helper = JsonResultUtils.helper(response);
                 String user = helper.getContentByKey("user");
-                UserBean userBean = FastJsonHelper.getObject(user, UserBean.class);
+                List<UserBean> userBeanList = FastJsonHelper.getObjects(user, UserBean.class);
+                UserBean userBean = userBeanList.get(0);
                 if (null != userBean) {
+                    LalaLog.i("userBean:", userBean.toString());
                     Intent intent = new Intent();
                     intent.setClass(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
@@ -108,7 +112,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     public boolean isSamulation() {
-        return true;
+        return false;
     }
 
     @Override

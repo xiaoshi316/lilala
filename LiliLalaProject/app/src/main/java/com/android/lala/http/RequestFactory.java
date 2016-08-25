@@ -56,7 +56,7 @@ public class RequestFactory {
             @Override
             public void onResponse(String response) {
                 dismiss();
-                LalaLog.i(response);
+                LalaLog.json("response",response);
                 httpListener.onSuccess(what, response);
             }
         }, new Response.ErrorListener() {

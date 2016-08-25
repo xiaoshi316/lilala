@@ -10,7 +10,7 @@ Java_com_android_lala_config_LalaConfig_stringsFromJNI( JNIEnv* env,
 	  jstring str;
 	  jsize len = 1;
 	  jobjectArray args = 0;
-	  char* sa[] = {  "http://192.168.0.136:8080",
+	  char* sa[] = {  "http://lelelala.net",
 					 };
 	  int i=0;
 	  args = (*env)->NewObjectArray(env,len,(*env)->FindClass(env,"java/lang/String"),0);

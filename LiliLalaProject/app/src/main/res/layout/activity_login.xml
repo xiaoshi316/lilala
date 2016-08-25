@@ -37,7 +37,7 @@
             android:background="@null"
             android:hint="@string/hint_input_username"
             android:singleLine="true"
-            android:text="13618498347"
+            android:text="15576310006 "
             android:textColor="@color/white_color"
             android:textColorHint="@color/white_color"
             android:textSize="@dimen/fourty_sp" />
@@ -69,7 +69,7 @@
             android:hint="@string/hint_pwd"
             android:inputType="textPassword"
             android:singleLine="true"
-            android:text="789666"
+            android:text="sunxe123456"
             android:textColor="@color/white_color"
             android:textColorHint="@color/white_color"
             android:textSize="@dimen/fourty_sp" />
